@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* #998cca */
+  background-color: #0a012b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+header{
+  margin: 30px 0px 10px 30px;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 150%;
+  color: #5f0394;
+}
+
+.form-box{
+  position: relative;
+  padding: 35px;
+  margin: 0px 40px 40px 40px;
+  /* E5E5E5 */
+  background-color: #af88db;
+  border-radius: 0.5em;
+  width: auto;
+  height: auto;
+}
+
+.box {
+  position: relative;
+  padding: 35px;
+  margin: 0px 40px 40px 40px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  background-color: rgb(96, 98, 219);
+  border-radius: 0.5em;
+  width: auto;
+  height: auto;
+}
+
+#atencao{
+  margin-top: 2vw;
+}
+
+#btn-cripto {
+  top: 26vw;
+  width: 100%;
+  height: 67px;
+  background: #5f0394;
+  border-radius: 24px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#btn-descripto{
+  top: 32vw;
+  width: 100%;
+  height: 67px;
+  background: #ffffff;
+  border: 1px solid #5f0394;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: #5f0394;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#saida{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 0.8rem;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+#entrada {
+  margin-top: 20px;
+  border-radius: 0.5em;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 1.5em;
+  width: 100%;
+  height: 255px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#subtitulo{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #5f0394;
+  margin-top: 10px;
+}
+
+#btn-copy{
+  width: 100%;
+  height: 67px;
+  border: 1px solid #5f0394;
+  box-sizing: border-box;
+  border-radius: 24px;
+  margin: 10px 0px 0px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  color: #5f0394;
+}
+
+.imagemPrincipal{
+  width: 100%;
+}
+
+@media (max-width: 910px) {
+  .main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
